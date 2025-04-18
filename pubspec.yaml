@@ -1,0 +1,27 @@
+name: login
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0" # Adjust this based on your project's requirements
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^1.10.25
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.7+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
